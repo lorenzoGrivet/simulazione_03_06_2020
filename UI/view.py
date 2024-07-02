@@ -43,12 +43,11 @@ class View(ft.UserControl):
         self._page.add(row3)
 
         self.txtGrafo = ft.ListView(expand=1)
-        self.txtTopPlayer = ft.ListView(expand=1)
-        self.txtDreamTeam = ft.ListView(expand=1)
+        # self.txtTopPlayer = ft.ListView(expand=1)
+        # self.txtDreamTeam = ft.ListView(expand=1)
 
         self._page.add(self.txtGrafo)
-        self._page.add(self.txtCompConn)
-        self._page.add(self.txtSimulazione)
+
         self._page.update()
     @property
     def controller(self):
